@@ -1,0 +1,36 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+
+# ------------------------------
+# PowerShell Build / Runtime
+# ------------------------------
+bin/
+obj/
+
+# Module testing artifacts
+TestResults/
+coverage/
+
+# ------------------------------
+# PowerShell Secrets
+# ------------------------------
+*.credential
+*.securestring
+*.clixml
+
+# ------------------------------
+# Logs
+# ------------------------------
+logs/
+*.log
+
+# ------------------------------
+# Local development files
+# ------------------------------
+settings.local.*
